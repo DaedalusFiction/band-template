@@ -10,7 +10,8 @@
     /* background colors */
     --bg-light: rgb(250, 250, 250);
     --bg-primary: rgb(245, 245, 245);
-    --bg-accent: #004b46;
+    /* --bg-accent: #004b46; */
+    --bg-accent: #001d1b;
 
     /* font colors  */
     --fc-primary: rgb(78, 78, 78);

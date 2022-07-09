@@ -10,7 +10,7 @@ import MenuItem from "@mui/material/MenuItem";
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 
-const pages = ["photos"];
+const pages = ["schedule", "photos", "contact"];
 
 const Header = () => {
     const [anchorElNav, setAnchorElNav] = useState(null);
@@ -47,7 +47,7 @@ const Header = () => {
                                     fontFamily: "var(--ff-secondary)",
                                 }}
                             >
-                                SNACK BAR
+                                YOUR BAND
                             </Typography>
                         </Link>
                     </Box>

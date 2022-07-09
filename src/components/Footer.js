@@ -39,7 +39,7 @@ const Footer = () => {
                                 marginBottom: "1em",
                             }}
                         >
-                            THE FORUMS
+                            BAND WEBSITE
                         </Typography>
                         {links.map((item, index) => {
                             return (

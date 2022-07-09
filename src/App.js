@@ -5,12 +5,15 @@ import Home from "./routes/Home";
 import Photos from "./routes/Photos";
 import Nopage from "./routes/Nopage";
 import "./App.css";
+import Contact from "./routes/Contact.js";
+import Schedule from "./routes/Schedule.js";
+import Event from "./routes/Event.js";
 
 function App() {
     const theme = createTheme({
         palette: {
             background: {
-                default: "rgb(245, 245, 245)",
+                default: "#001d1b",
             },
             primary: {
                 main: "#004b46",
@@ -60,6 +63,9 @@ function App() {
                     <Route path="/" element={<Layout />}>
                         <Route index element={<Home />} />
                         <Route path="photos" element={<Photos />} />
+                        <Route path="schedule" element={<Schedule />} />
+                        <Route path="events/:event" element={<Event />} />
+                        <Route path="contact" element={<Contact />} />
 
                         <Route path="*" element={<Nopage />} />
                     </Route>

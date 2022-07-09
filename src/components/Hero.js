@@ -26,7 +26,7 @@ const Hero = () => {
                             fontSize: "clamp(3rem, 6vw, 10.5rem)",
                         }}
                     >
-                        SNACK BAR
+                        YOUR BAND
                     </Typography>
                     <Typography
                         variant="h5"
@@ -35,7 +35,7 @@ const Hero = () => {
                             textShadow: "5px 5px 5px black",
                         }}
                     >
-                        Garage Punk and Alternative
+                        Your genre and style
                     </Typography>
                 </Box>
             </Container>
